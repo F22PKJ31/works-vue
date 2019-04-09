@@ -2,7 +2,7 @@
   <el-container>
     <el-main class="main" v-loading="loading">
       <el-row :gutter="10">
-        <v-painting :key="paintingData.id" :userData="paintingData"
+        <v-painting :key="paintingData.id" :paintingData="paintingData"
                 v-for="paintingData in paintingList"></v-painting>
       </el-row>
     </el-main>
@@ -27,8 +27,10 @@
     },
     methods: {
       getPaintingList() {
-        this.axiosProxy.getPaintingList().then(response => {
+        this.axiosProxy.findAllPainting().then(response => {
           this.paintingList = response.data;
+          console.log(response);
+          this.loading = false;
         })
       }
     }

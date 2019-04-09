@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
@@ -19,7 +18,7 @@ export default new Router({
         {
           path: 'painting',
           component: resolve => require(['../components/page/PaintingTable.vue'], resolve),
-          meta: {title: '博客管理'}
+          meta: {title: '摸鱼'}
         }]
     }
   ]

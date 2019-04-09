@@ -21,54 +21,9 @@
                 items: [
                     {
                         icon: 'el-icon-lx-cascades',
-                        index: 'blog',
-                        title: '博客管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'blogCollection',
-                        title: '博客收藏管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'blogComment',
-                        title: '博客评论管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'post',
-                        title: '帖子管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'postCollection',
-                        title: '帖子收藏管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'postComment',
-                        title: '帖子评论管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'newsTable',
-                        title: '新闻管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'newsComment',
-                        title: '新闻评论管理'
-                    },{
-                        icon: 'el-icon-lx-cascades',
-                        index: 'newsCollection',
-                        title: '新闻收藏管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'categoryTable',
-                        title: '新闻分类管理'
-                    }, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'user',
-                        title: '用户管理'
-					}, {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'headImgTable',
-                        title: '轮播图管理'
+                        index: 'painting',
+                        title: '摸鱼'
                     }
-
                 ]
             }
         },
