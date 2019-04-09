@@ -20,6 +20,11 @@ export default new Router({
           component: resolve => require(['../components/page/PaintingTable.vue'], resolve),
           meta: {title: '摸鱼'}
         }]
-    }
+    },
+    {
+      path: '/asdf',
+      component: resolve => require(['../components/page/Login.vue'], resolve),
+      meta: {title: '登录'}
+    },
   ]
 })

@@ -20,7 +20,7 @@
                 collapse: false,
                 items: [
                     {
-                        icon: 'el-icon-lx-cascades',
+                        icon: 'el-icon-menu',
                         index: 'painting',
                         title: '摸鱼'
                     }
